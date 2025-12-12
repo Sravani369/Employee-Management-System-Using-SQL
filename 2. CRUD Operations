@@ -1,0 +1,24 @@
+INSERT INTO Employees (first_name, last_name, department, position, salary, hire_date)
+VALUES 
+('John', 'Doe', 'Sales', 'Manager', 60000.00, '2023-01-15'),
+('Jane', 'Smith', 'IT', 'Developer', 55000.00, '2023-03-10'),
+('Peter', 'Jones', 'Sales', 'Representative', 45000.00, '2023-06-01');
+-- Read all employee records
+SELECT * FROM Employees;
+
+-- Read employee records with a specific condition (e.g., department)
+SELECT first_name, last_name, position FROM Employees WHERE department = 'IT';
+
+-- Read employee records and order by salary
+SELECT * FROM Employees ORDER BY salary DESC;
+-- Update the position and salary for the employee named 'John Doe'
+UPDATE Employees
+SET position = 'Senior Manager', salary = 65000.00
+WHERE first_name = 'John' AND last_name = 'Doe';
+-- Delete the employee with employee_id = 3
+DELETE FROM Employees WHERE employee_id = 3;
+
+-- Delete all employees in the 'Sales' department
+-- DELETE FROM Employees WHERE department = 'Sales'; -- Use with caution
+
+
