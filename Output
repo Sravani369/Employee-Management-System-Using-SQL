@@ -1,0 +1,39 @@
+1.CREATE 
+
+
+| employee_id | first_name | last_name | department | position      | salary   | hire_date  |
+|-------------|------------|-----------|------------|---------------|----------|-------------|
+| 1           | John       | Doe       | Sales      | Manager       | 60000.00 | 2023-01-15  |
+| 2           | Jane       | Smith     | IT         | Developer     | 55000.00 | 2023-03-10  |
+| 3           | Peter      | Jones     | Sales      | Representative | 45000.00 | 2023-06-01  |
+
+2.READ 
+
+| employee_id | first_name | last_name | department | position      | salary   | hire_date  |
+|-------------|------------|-----------|------------|---------------|----------|-------------|
+| 1           | John       | Doe       | Sales      | Manager       | 60000.00 | 2023-01-15  |
+| 2           | Jane       | Smith     | IT         | Developer     | 55000.00 | 2023-03-10  |
+| 3           | Peter      | Jones     | Sales      | Representative | 45000.00 | 2023-06-01  |
+ 
+
+3.UPDATE 
+
+
+| employee_id | first_name | last_name | department | position      | salary   | hire_date  |
+|-------------|------------|-----------|------------|---------------|----------|-------------|
+| 1           | John       | Doe       | Sales      | Manager       | 66000.00 | 2023-01-15  |
+| 2           | Jane       | Smith     | IT         | Developer     | 55000.00 | 2023-03-10  |
+| 3           | Peter      | Jones     | Sales      | Representative | 49500.00 | 2023-06-01  |
+
+4.DELETE
+
+| employee_id | first_name | last_name | department | position      | salary   | hire_date  |
+|-------------|------------|-----------|------------|---------------|----------|-------------|
+| 1           | John       | Doe       | Sales      | Manager       | 66000.00 | 2023-01-15  |
+| 3           | Peter      | Jones     | Sales      | Representative | 49500.00 | 2023-06-01  |
+
+
+
+
+
+
