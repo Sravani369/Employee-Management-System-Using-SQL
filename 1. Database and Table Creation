@@ -1,0 +1,14 @@
+-- Create the database
+CREATE DATABASE EmployeeDB;
+USE EmployeeDB; -- Use this command in MySQL/SQL Server to select the database
+
+-- Create the Employees table
+CREATE TABLE Employees (
+    employee_id INT AUTO_INCREMENT PRIMARY KEY, -- Automatically increments for new records
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    department VARCHAR(50),
+    position VARCHAR(50),
+    salary DECIMAL(10, 2),
+    hire_date DATE
+);
